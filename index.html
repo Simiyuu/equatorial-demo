@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Equatorial — Fine Dining</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <span class="logo-main">Equatorial</span>
+        <span class="logo-sub">Fine Dining</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reserve">Reserve</a></li>
+      </ul>
+      <a href="#reserve" class="nav-cta">Book a Table</a>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Nairobi, Kenya</p>
+      <h1>Where Africa<br/><em>Meets the Table</em></h1>
+      <p class="hero-sub">A celebration of East African flavours, reimagined through the lens of contemporary fine dining. Every dish tells a story.</p>
+      <div class="hero-btns">
+        <a href="#reserve" class="btn-primary">Reserve a Table</a>
+        <a href="#menu" class="btn-ghost">View Our Menu</a>
+      </div>
+    </div>
+    <div class="hero-scroll">scroll</div>
+  </section>
+
+  <section id="about">
+    <div class="about-inner">
+      <div class="about-text">
+        <p class="sec-label">Our Story</p>
+        <h2>A Journey Through East African Cuisine</h2>
+        <p>Equatorial was born from a simple belief — that the flavours of East Africa deserve a world-class stage. From the spice routes of the Swahili Coast to the highland farms of the Rift Valley, every ingredient we use tells the story of this extraordinary region.</p>
+        <p>Our head chef brings over fifteen years of experience across Nairobi, London, and Dubai, returning home with a vision: to honour tradition while pushing the boundaries of what African fine dining can be.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">2018</span>
+            <span class="stat-label">Est.</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">12</span>
+            <span class="stat-label">Signature Dishes</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">4.9</span>
+            <span class="stat-label">Guest Rating</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-image">
+        <div class="about-img-frame">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Equatorial fine dining interior" />
+        </div>
+        <div class="about-tag">
+          <span>✦</span> Est. 2018
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu">
+    <div class="menu-inner">
+      <div class="sec-header">
+        <p class="sec-label">What We Serve</p>
+        <h2>Our Signature Menu</h2>
+        <p class="sec-sub">A curated selection of dishes crafted from the finest local and regional ingredients.</p>
+      </div>
+
+      <div class="menu-tabs">
+        <button class="menu-tab active" onclick="showMenu('starters', this)">Starters</button>
+        <button class="menu-tab" onclick="showMenu('mains', this)">Mains</button>
+        <button class="menu-tab" onclick="showMenu('desserts', this)">Desserts</button>
+        <button class="menu-tab" onclick="showMenu('drinks', this)">Drinks</button>
+      </div>
+
+      <div class="menu-grid" id="starters">
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Swahili Crab Cakes</span>
+            <span class="menu-price">KES 1,800</span>
+          </div>
+          <p class="menu-desc">Fresh crab, coconut cream, tamarind aioli, micro herbs</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Nyama Choma Tartare</span>
+            <span class="menu-price">KES 2,200</span>
+          </div>
+          <p class="menu-desc">Hand-cut beef, smoked tomato, pickled red onion, ugali crisps</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Avocado &amp; Prawn Salad</span>
+            <span class="menu-price">KES 1,600</span>
+          </div>
+          <p class="menu-desc">Kenyan avocado, tiger prawns, citrus dressing, edible flowers</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Rift Valley Mushroom Soup</span>
+            <span class="menu-price">KES 1,400</span>
+          </div>
+          <p class="menu-desc">Wild mushrooms, truffle oil, cream, toasted sourdough</p>
+        </div>
+      </div>
+
+      <div class="menu-grid hidden" id="mains">
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Highland Lamb Rack</span>
+            <span class="menu-price">KES 5,800</span>
+          </div>
+          <p class="menu-desc">Grass-fed lamb, rosemary jus, roasted root vegetables, mint gel</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Mombasa Lobster</span>
+            <span class="menu-price">KES 7,200</span>
+          </div>
+          <p class="menu-desc">Whole lobster, spiced butter, coconut rice, charred lime</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Wagyu Beef Tenderloin</span>
+            <span class="menu-price">KES 8,500</span>
+          </div>
+          <p class="menu-desc">A5 Wagyu, red wine reduction, truffled mash, asparagus</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Coastal Catch of the Day</span>
+            <span class="menu-price">KES 4,200</span>
+          </div>
+          <p class="menu-desc">Fresh Indian Ocean fish, coconut broth, cassava, coriander</p>
+        </div>
+      </div>
+
+      <div class="menu-grid hidden" id="desserts">
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Passion Fruit Pavlova</span>
+            <span class="menu-price">KES 1,200</span>
+          </div>
+          <p class="menu-desc">Meringue, fresh passion fruit, whipped cream, mint</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Chocolate Lava Cake</span>
+            <span class="menu-price">KES 1,400</span>
+          </div>
+          <p class="menu-desc">Dark chocolate, vanilla ice cream, gold dust, berry coulis</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Kenyan Tea Panna Cotta</span>
+            <span class="menu-price">KES 1,100</span>
+          </div>
+          <p class="menu-desc">Masala chai infused cream, caramel, spiced biscuit crumb</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Mango Sorbet</span>
+            <span class="menu-price">KES 900</span>
+          </div>
+          <p class="menu-desc">Fresh Kenyan mango, lime zest, candied chilli, coconut tuile</p>
+        </div>
+      </div>
+
+      <div class="menu-grid hidden" id="drinks">
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Equatorial Signature</span>
+            <span class="menu-price">KES 1,800</span>
+          </div>
+          <p class="menu-desc">Kenyan gin, passion fruit, ginger, tonic, edible flower</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Rift Valley Spritz</span>
+            <span class="menu-price">KES 1,400</span>
+          </div>
+          <p class="menu-desc">Prosecco, elderflower, cucumber, fresh mint</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Dawa Cocktail</span>
+            <span class="menu-price">KES 1,600</span>
+          </div>
+          <p class="menu-desc">Vodka, honey, lime — the classic Kenyan cocktail, elevated</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <span class="menu-item-name">Fresh Dawa Mocktail</span>
+            <span class="menu-price">KES 800</span>
+          </div>
+          <p class="menu-desc">Honey, lime, ginger beer, fresh mint — alcohol free</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="gallery-inner">
+      <div class="sec-header light">
+        <p class="sec-label">Visual Story</p>
+        <h2>A Feast for the Eyes</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80" alt="Fine dining dish" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&q=80" alt="Restaurant interior" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=600&q=80" alt="Plated dessert" />
+        </div>
+        <div class="gallery-item wide">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80" alt="Food spread" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reserve">
+    <div class="reserve-inner">
+      <div class="reserve-text">
+        <p class="sec-label">Reservations</p>
+        <h2>Join Us for an Unforgettable Evening</h2>
+        <p>We recommend booking at least 48 hours in advance. For parties of 8 or more, please contact us directly.</p>
+        <div class="reserve-info">
+          <div class="info-item">
+            <span class="info-icon">🕐</span>
+            <div>
+              <strong>Opening Hours</strong>
+              <span>Tue – Sun: 12pm – 3pm, 6pm – 11pm</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">📍</span>
+            <div>
+              <strong>Location</strong>
+              <span>Westlands, Nairobi, Kenya</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">📞</span>
+            <div>
+              <strong>Phone</strong>
+              <span>+254 700 000 000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form class="reserve-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="Your full name" />
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="your@email.com" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Date</label>
+            <input type="date" />
+          </div>
+          <div class="form-group">
+            <label>Time</label>
+            <select>
+              <option value="" disabled selected>Select a time</option>
+              <option>12:00 PM</option>
+              <option>12:30 PM</option>
+              <option>1:00 PM</option>
+              <option>6:00 PM</option>
+              <option>6:30 PM</option>
+              <option>7:00 PM</option>
+              <option>7:30 PM</option>
+              <option>8:00 PM</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Number of Guests</label>
+            <select>
+              <option value="" disabled selected>Select guests</option>
+              <option>1 Guest</option>
+              <option>2 Guests</option>
+              <option>3 Guests</option>
+              <option>4 Guests</option>
+              <option>5 Guests</option>
+              <option>6 Guests</option>
+              <option>7 Guests</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Occasion (Optional)</label>
+            <select>
+              <option value="" disabled selected>Select occasion</option>
+              <option>Birthday</option>
+              <option>Anniversary</option>
+              <option>Business Dinner</option>
+              <option>Date Night</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group full">
+          <label>Special Requests (Optional)</label>
+          <textarea rows="3" placeholder="Dietary requirements, allergies, special arrangements..."></textarea>
+        </div>
+        <button type="submit" class="reserve-btn">Confirm Reservation →</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Equatorial</div>
+        <p>Fine dining in the heart of Nairobi. Where East African flavours meet world-class cuisine.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reserve">Reservations</a>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <a href="#">Westlands, Nairobi</a>
+        <a href="#">+254 700 000 000</a>
+        <a href="#">info@equatorial.co.ke</a>
+      </div>
+      <div class="footer-links">
+        <h4>Follow Us</h4>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">TripAdvisor</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Equatorial Fine Dining. All rights reserved.</span>
+      <span>Demo website built by <a href="https://Simiyuu.github.io" target="_blank">Chandler Matere</a></span>
+    </div>
+  </footer>
+
+  <script>
+    function showMenu(category, btn) {
+      document.querySelectorAll('.menu-grid').forEach(g => g.classList.add('hidden'));
+      document.querySelectorAll('.menu-tab').forEach(t => t.classList.remove('active'));
+      document.getElementById(category).classList.remove('hidden');
+      btn.classList.add('active');
+    }
+
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('navbar');
+      if (window.scrollY > 80) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    });
+  </script>
+
+</body>
+</html>
+</parameter>
+<parameter name="path">/mnt/user-data/outputs/index.html</parameter>
