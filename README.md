@@ -1,4 +1,3 @@
-```markdown
 # Equatorial — Fine Dining Website 🍽️
 
 A visually polished demo restaurant website built entirely from scratch 
