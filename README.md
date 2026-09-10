@@ -1,13 +1,13 @@
-# Equatorial — Fine Dining Website 🍽️
+# Equatorial — Fine Dining Website 
 
 A visually polished demo restaurant website built entirely from scratch 
 using HTML and CSS. No templates, no page builders — pure hand-written code.
 
-## 🌐 Live Demo
+##  Live Demo
 
 [View Live Site](https://Simiyuu.github.io/equatorial-demo)
 
-## 📸 Preview
+##  Preview
 
 A full-screen hero, interactive menu tabs, photo gallery, reservation 
 form, and elegant footer — all fully responsive.
@@ -63,15 +63,15 @@ in Nairobi, Kenya, working through the FreeCodeCamp Full Stack curriculum.
 Available for freelance work on landing pages, business websites, and 
 web applications.
 
-- 🌍 Portfolio: [Simiyuu.github.io](https://Simiyuu.github.io)
-- 🎯 Fiverr: [fiverr.com/chandler_matere](https://fiverr.com/chandler_matere)
-- 🐙 GitHub: [github.com/Simiyuu](https://github.com/Simiyuu)
-- 📧 Email: chandlermxtere@gmail.com
+- Portfolio: [Simiyuu.github.io](https://Simiyuu.github.io)
+- Fiverr: [fiverr.com/chandler_matere](https://fiverr.com/chandler_matere)
+- GitHub: [github.com/Simiyuu](https://github.com/Simiyuu)
+- Email: chandlermxtere@gmail.com
 
 ---
 
 *This is a demo website. Equatorial is a fictional restaurant created 
 for portfolio and demonstration purposes only.*
-```
+
 
 
